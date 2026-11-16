@@ -269,12 +269,20 @@
 
   views.innovators = function () {
     var frag = document.createDocumentFragment();
-    frag.appendChild(pageHead("Social Innovators", "Innovators we studied outside regular class hours: a mix of Indian and international changemakers."));
+    frag.appendChild(pageHead("Social Innovators", "Indian changemakers we studied outside regular class hours."));
     var g = el("div", { class: "innov-grid" });
     S.innovators.forEach(function (x, i) {
       var c = el("article", { class: "card innov" });
       c.appendChild(el("span", { class: "chip", text: x.origin }));
-      c.appendChild(photo({ src: x.photo, caption: "" }));
+      var initials = (x.name || "").replace(/^Dr\.\s*/, "").replace(/"[^"]*"/g, "").trim().split(/\s+/).map(function (w) { return w.charAt(0); }).join("").toUpperCase();
+      var mono = function () { return el("div", { class: "monogram", role: "img", "aria-label": x.name || "Innovator photo placeholder" }, [el("span", { text: initials || "?" })]); };
+      var fig = el("figure", { class: "photo" });
+      if (x.photo) {
+        var pim = el("img", { src: x.photo, alt: x.name });
+        pim.onerror = function () { if (pim.parentNode) pim.parentNode.replaceChild(mono(), pim); };
+        fig.appendChild(pim);
+      } else fig.appendChild(mono());
+      c.appendChild(fig);
       c.appendChild(el("h2", { text: x.name || "Innovator " + (i + 1) + " name", class: x.name ? "" : "blank-line" }));
       [["Background", x.bio, "Biodata and background summary."],
        ["Contribution to society", x.contribution, "What they have specifically done for society."],

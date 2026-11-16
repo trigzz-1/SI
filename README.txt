@@ -15,6 +15,4 @@ Phase 1 Observation, Phase 2 Problem Identification, Phase 3 Solution Discernmen
 Phase 4 Pilot Testing & Feedback, Phase 5 Reflections, ARC Framework,
 Takeaways from the Course, Exhibition.
 
-INNOVATOR PHOTOS
-Save the two photos as assets/muruganantham.jpg and assets/yunus.jpg
-(same names, .jpg) and they will appear automatically on the Social Innovators tab.
+INNOVATOR PHOTOS are in assets/ (kurien.jpg, bunker-roy.jpg, harish-hande.jpg, jadav-payeng.jpg). Replace a file with the same name to change a photo.

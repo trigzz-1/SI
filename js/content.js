@@ -31,9 +31,9 @@ window.SITE = {
   /* Team members shown on the Introduction tab (first row = you) */
   team: [
     { name: "Trigun T Rayangoudar", srn: "01FE26BCS176", photo: "assets/photo.jpg" },
-    { name: "Vishal C",     srn: "", photo: "" },
-    { name: "Omkar K",      srn: "", photo: "" },
-    { name: "Samarth K",    srn: "", photo: "" },
+    { name: "Vishal C",     srn: "", photo: "assets/vishal.jpg" },
+    { name: "Omkar K",      srn: "", photo: "assets/omkar.jpg" },
+    { name: "Samarth K",    srn: "", photo: "assets/samarth.jpg" },
     { name: "Harshita",     srn: "", photo: "" },
     { name: "Swaroopa P",   srn: "", photo: "" },
     { name: "Shreenidhi",   srn: "", photo: "" }
@@ -68,15 +68,24 @@ window.SITE = {
 
   /* ---------- Social innovators (not studied in class hours) ---------- */
   innovators: [
-    { origin: "Indian", name: "Arunachalam Muruganantham", photo: "assets/muruganantham.jpg",
-      bio: "A school-dropout inventor and social entrepreneur from Coimbatore, Tamil Nadu, who runs Jayaashree Industries. His story inspired the film Padman, and he received the Padma Shri.",
-      contribution: "He noticed that women around him, including his wife, relied on unsafe cloth for menstrual hygiene because branded pads were too costly. He spent years developing a low-cost machine that makes sanitary pads, and sold it to women's self-help groups so they could produce pads locally and earn an income.",
-      reflection: "He did not start with a product; he started with an observed problem in his own home, which is exactly what the Observation phase asks of us. His solution also solves two problems at once, health and livelihood, and it stays sustainable because the users become the makers." },
-    { origin: "International", name: "Muhammad Yunus", photo: "assets/yunus.jpg",
-      bio: "A Bangladeshi economist and social entrepreneur, founder of Grameen Bank, who shared the 2006 Nobel Peace Prize with the bank.",
-      contribution: "Seeing poor villagers trapped by moneylenders, he began lending tiny amounts to people, mostly women, that banks considered too risky. This grew into the microcredit model, which let millions start small businesses, and he promoted the idea of 'social business', ventures run to solve a problem rather than to maximise profit.",
-      reflection: "He tested his idea with a small pilot in a single village before scaling, which mirrors our own pilot-and-feedback phase. He also shows that trusting the people you serve can be a better design principle than assuming they are the problem." }
+    { origin: "Indian", name: "Dr. Verghese Kurien", photo: "assets/kurien.jpg",
+      bio: "Known as the Milkman of India, Verghese Kurien (1921 to 2012) was an engineer and dairy pioneer who worked with the Kaira District Cooperative Milk Producers' Union (Amul) in Anand, Gujarat. He received the Ramon Magsaysay Award and the Padma Vibhushan.",
+      contribution: "He helped farmers pool their milk into village cooperatives, so they could sell directly instead of depending on middlemen. He then led Operation Flood, a national programme that scaled this cooperative model across India and turned the country into one of the world's largest milk producers.",
+      reflection: "He did not hand farmers a solution from outside; he built a system that they owned. It shows that a social innovation lasts when the people it serves also run it, which is the same ownership gap we found at The Streat." },
+    { origin: "Indian", name: "Sanjit \"Bunker\" Roy", photo: "assets/bunker-roy.jpg",
+      bio: "Founder of the Barefoot College, set up in 1972 in Tilonia, Rajasthan. TIME named him one of the 100 most influential people in the world in 2010.",
+      contribution: "The college trains rural people, many of them women with little or no formal schooling, to become solar engineers, teachers and health workers in their own villages. Its model values practical skill and community knowledge over degrees.",
+      reflection: "He shows that expertise does not only come from a classroom. Trusting ordinary people to solve their own problems is the opposite of assuming we already know the answer, and it is what the Observation phase asks of us." },
+    { origin: "Indian", name: "Harish Hande", photo: "assets/harish-hande.jpg",
+      bio: "A Bengaluru-based social entrepreneur and engineer who co-founded SELCO India in 1995. He received the Ramon Magsaysay Award in 2011.",
+      contribution: "SELCO designs solar lighting and energy solutions for poor households and small livelihoods, and works with banks and lenders so that customers can afford them through suitable financing. He treats energy access as a way to raise incomes, not just to switch on lights.",
+      reflection: "He is an engineer who started from the user's actual need and its affordability, rather than from the technology. That is a useful reminder for us as engineering students that a solution fails if people cannot pay for it or maintain it." },
+    { origin: "Indian", name: "Jadav \"Molai\" Payeng", photo: "assets/jadav-payeng.jpg",
+      bio: "Known as the Forest Man of India, he is from Majuli island in Assam and received the Padma Shri.",
+      contribution: "Starting as a teenager, he planted trees on a barren sandbar of the Brahmaputra river, year after year. Over decades it grew into a forest that is home to a variety of wildlife.",
+      reflection: "He had no funding, committee or technology, only a small daily action repeated for a very long time. It supports a point from our own reflection notes: small daily practices can have a large environmental impact when they are sustained." }
   ],
+
 
   /* ---------- Phase pages: each section = one card on the page ---------- */
   pages: {
@@ -87,9 +96,10 @@ window.SITE = {
         { title: "Community visit: The Streat",
           facts: [
             ["Place visited", "The Streat"],
+            ["Address", "The Streat, Shirur Park Road, Hubli-28"],
             ["Date of visit", "30 September 2026"],
             ["Time of visit", "4:00 pm"],
-            ["Batch", "1"],
+            ["Batch", "D2"],
             ["Team members", "Vishal, Trigun R, Omkar G K, Harshita M, Swaroopa P, Shreenidhi B, Samarth U K"]
           ] },
         { title: "Session learnings",
@@ -184,7 +194,7 @@ window.SITE = {
             ["Place visited", "The Hub"],
             ["Date of visit", "17 September 2026"],
             ["Time of visit", "10:30 am"],
-            ["Batch / Team no", "1 / 1"],
+            ["Batch / Team no", "D2 / 1"],
             ["Team members", "Vishal, Trigun R, Omkar G K, Swaroopa P, Shreenidhi B, Harshita M"]
           ] },
         { title: "The Hub: observations from the 15-minute rule",
@@ -264,9 +274,10 @@ window.SITE = {
       sections: [
         { title: "Visit details",
           facts: [
-            ["Batch", "1"],
+            ["Batch", "D2"],
             ["Team no", "1"],
             ["Place visited", "The Streat"],
+            ["Address", "The Streat, Shirur Park Road, Hubli-28"],
             ["Team members", "Harshita, Vishal, Swaroopa, Omkar, Samarth, Trigun, Shreenidhi"]
           ] },
         { title: "Session learnings and insights",
@@ -349,18 +360,16 @@ window.SITE = {
             ["Poor maintenance of washroom facilities", "Trigun", "Washrooms and their surrounding areas had an unpleasant smell, tobacco stains and lack of water supply."]
           ] } },
         { title: "Finalized social challenge",
-          callout: "Improper waste management, inadequate hygiene practices, and lack of proper maintenance of food stalls and common facilities at The Streat.",
+          callout: "At The Streat, wet and dry waste are mixed in shared single-compartment dustbins and collected only once a day, even though waste multiplies during peak hours. As a result, food-preparation areas and common facilities such as washrooms are left unhygienic and poorly maintained.",
           body: [ "Evidence: During our visit, we observed waste mixed in dustbins and additional waste left near some stalls. Food-preparation vessels had visible food stains, and the washroom facilities appeared poorly maintained. These conditions highlighted the need for better waste disposal practices, regular cleaning, and improved hygiene management to maintain a clean and healthy environment for shopkeepers and visitors." ] },
         { title: "Root cause analysis: Five Whys",
-          lead2: "Visible problem: waste is mixed in the dustbins and left near the stalls, and the food stalls and common facilities are poorly maintained.",
           steps: [
-            "Why 1: Why is waste left near the stalls and bins overflowing? Because the bins fill up quickly during rush hours (lunch and after 6:30 PM), and there are only 7 bins for 8 shops.",
-            "Why 2: Why is it not cleared when it piles up? Because waste is collected only once a day, in the morning by HDMC, and cleaning stays at 1\u00d7 a day while waste multiplies about 4\u00d7 at 6:00 PM.",
-            "Why 3: Why is the waste all mixed together? Because the bins are single-compartment, and there are no separate bins for wet and dry waste.",
-            "Why 4: Why do shopkeepers and customers not segregate even when bins exist? Because shopkeepers are not aware of proper segregation, and customers often leave leftovers on tables or near the bins.",
-            "Why 5: Why does nobody fix this? Because no one is clearly responsible for waste management and upkeep at The Streat. We were unsure whether shopkeepers, customers, management or local authorities should handle it."
-          ],
-          after: [ "Root cause: there is no clear system or ownership for waste handling and hygiene at The Streat. Without a clear owner, regular collection, separate bins and awareness are all missing, and the visible mess keeps returning." ] },
+            "Why 1: Why is the environment unhygienic? Because waste accumulates and food-preparation and common areas are not maintained properly.",
+            "Why 2: Why does waste accumulate? Because wet and dry waste are mixed, and collection is not frequent enough.",
+            "Why 3: Why is waste mixed? Because separate bins for wet and dry waste are not available.",
+            "Why 4: Why is waste collection insufficient? Because collection generally happens once a day, even though waste increases during peak hours.",
+            "Why 5: What is the underlying issue? Inadequate waste-management arrangements, insufficient collection frequency and poor maintenance practices."
+          ] },
         { title: "Formal Problem Statement",
           hint: "Write the final formal Problem Statement once your root cause analysis is done.",
           callout: "" },
